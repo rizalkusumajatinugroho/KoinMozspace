@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smu.koinmozspace.presentation.activity.fragment.DetailFragment">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgTeam"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_below="@id/imgTeam"
+        android:id="@+id/teamNama"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_below="@id/teamNama"
+        android:layout_marginTop="10dp"
+        android:id="@+id/teamDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
